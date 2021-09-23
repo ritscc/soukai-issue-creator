@@ -18,6 +18,14 @@
        - 実行が終わったら revoke (削除) する
    - `REPO` リポジトリ名
    - `TAG_NAME` リリースのタグ名 (パーマリンクを取得するために必要)
+1. 以下の Issue に必要な情報を `issues.csv` ファイルに追記する
+   - `PAGE` - ページ数
+   - `SECTION` - 章名
+   - `MODIFICATION` - 編集内容 (「誤字」、「脱字」、「内容」、「LaTeX」、「表記」) など
+   - `AUTHOR` - 文責 GitHub アカウント
+   - `BEFORE` - 修正前の文言
+   - `AFTER` - 修正後の文言
+   - `URL` - ソースコードの URL
 
 ## 実行
 
