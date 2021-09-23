@@ -19,7 +19,7 @@
    - `REPO` リポジトリ名
    - `TAG_NAME` リリースのタグ名 (パーマリンクを取得するために必要)
 
-### 実行
+## 実行
 
 ```sh
 poetry run python src/soukai-issue-creator.py
