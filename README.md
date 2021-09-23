@@ -24,3 +24,23 @@
 ```sh
 poetry run python src/soukai-issue-creator.py
 ```
+
+## 開発
+
+### フォーマット
+
+```
+poetry run black src
+```
+
+### Lint
+
+```
+poetry run flake8 src
+```
+
+### 型チェック
+
+```
+poetry run mypy src
+```
