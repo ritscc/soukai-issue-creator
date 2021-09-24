@@ -9,7 +9,7 @@
    - **Poetry** - インストール方法は [Poetry 公式ドキュメント](https://python-poetry.org/docs/) を参照
 1. このリポジトリを clone
 1. `poetry install` で依存 Python パッケージをインストール
-1. `.env.sample` を書き換えて `.venv` というファイル名で保存
+1. `.env.sample` を書き換えて `.env` というファイル名で保存
    - `ACCESS_TOKEN` GitHub 個人アクセストークン
      - [個人アクセストークンを使用する \- GitHub Docs](https://docs.github.com/ja/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) を参照
      - **repo** 権限を付与すること
